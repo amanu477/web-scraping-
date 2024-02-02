@@ -42,6 +42,7 @@ def auto_post():
             previous_result = result 
             print("New job update posted!")
 
+            time.sleep(300)  # Sleep for 5 minute and check for un update
 
 if __name__ == "__main__":
     auto_post()
